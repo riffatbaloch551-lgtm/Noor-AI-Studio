@@ -1,0 +1,14 @@
+{
+  "name": "Noor AI Studio",
+  "description": "A premium, cinematic AI studio for generating images, videos, avatars, and perfect Urdu lip-sync content.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "AI Image Generation",
+    "AI Video Generation",
+    "Urdu Lip-Sync",
+    "AI Avatar Creation"
+  ]
+}
