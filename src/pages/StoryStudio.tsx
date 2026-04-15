@@ -60,9 +60,9 @@ export default function StoryStudio() {
         )}
       </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 flex-1 overflow-hidden">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 flex-1 md:overflow-hidden">
         {/* Controls */}
-        <div className="lg:col-span-4 space-y-6 overflow-y-auto pr-2">
+        <div className="lg:col-span-4 space-y-6 md:overflow-y-auto pr-2">
           <div className="space-y-3">
             <label className="panel-title">Story Idea</label>
             <textarea

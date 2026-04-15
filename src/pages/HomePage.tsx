@@ -42,31 +42,31 @@ export default function HomePage() {
   return (
     <div className="p-8 space-y-12">
       {/* Compact Hero */}
-      <section className="relative rounded-3xl overflow-hidden glass-dark border border-[var(--border-color)] p-12">
+      <section className="relative rounded-3xl overflow-hidden glass-dark border border-[var(--border-color)] p-6 md:p-12">
         <div className="absolute inset-0 z-0 opacity-20">
           <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[var(--accent-primary)] to-transparent" />
         </div>
 
         <div className="relative z-10 max-w-3xl space-y-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--accent-primary)]/20 text-[var(--accent-primary)] text-xs font-bold uppercase tracking-wider">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--accent-primary)]/20 text-[var(--accent-primary)] text-[10px] md:text-xs font-bold uppercase tracking-wider">
             <Zap className="w-3 h-3 fill-current" /> Next-Gen Urdu AI Studio
           </div>
-          <h1 className="text-5xl font-display font-bold tracking-tight leading-tight">
+          <h1 className="text-3xl md:text-5xl font-display font-bold tracking-tight leading-tight">
             Create Magic with <br />
             <span className="text-gradient">Noor AI Studio</span>
           </h1>
-          <p className="text-lg text-[var(--text-dim)] leading-relaxed max-w-xl">
+          <p className="text-sm md:text-lg text-[var(--text-dim)] leading-relaxed max-w-xl">
             AI سے امیج، ویڈیو اور اردو لپ سنک بنائیں بالکل پروفیشنل انداز میں۔ 
             آپ کا اپنا ڈیجیٹل اسٹوڈیو اب آپ کے ہاتھ میں۔
           </p>
-          <div className="flex gap-4 pt-4">
+          <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Link
               to="/image"
-              className="px-6 py-3 bg-[var(--accent-primary)] text-white rounded-lg font-bold hover:opacity-90 transition-opacity flex items-center gap-2"
+              className="px-6 py-3 bg-[var(--accent-primary)] text-white rounded-lg font-bold hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
             >
               Start Creating <ChevronRight className="w-4 h-4" />
             </Link>
-            <button className="px-6 py-3 bg-[var(--bg-surface)] text-white rounded-lg font-bold hover:bg-[var(--bg-surface)]/80 transition-colors flex items-center gap-2">
+            <button className="px-6 py-3 bg-[var(--bg-surface)] text-white rounded-lg font-bold hover:bg-[var(--bg-surface)]/80 transition-colors flex items-center justify-center gap-2">
               <Play className="w-4 h-4 fill-white" /> Watch Demo
             </button>
           </div>

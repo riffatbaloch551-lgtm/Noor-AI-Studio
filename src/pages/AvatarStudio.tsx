@@ -35,9 +35,9 @@ export default function AvatarStudio() {
         </div>
       </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 flex-1 overflow-hidden">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 flex-1 md:overflow-hidden">
         {/* Controls */}
-        <div className="lg:col-span-4 space-y-6 overflow-y-auto pr-2">
+        <div className="lg:col-span-4 space-y-6 md:overflow-y-auto pr-2">
           <div className="space-y-3">
             <label className="panel-title">Upload Your Photo</label>
             <div className="aspect-video bg-[var(--bg-surface)] border-2 border-dashed border-[var(--border-color)] rounded-xl flex flex-col items-center justify-center gap-2 cursor-pointer hover:border-[var(--accent-primary)] transition-colors group">

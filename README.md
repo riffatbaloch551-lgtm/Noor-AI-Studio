@@ -18,6 +18,20 @@ Noor AI Studio is a premium, cinematic AI platform designed specifically for Urd
 - **AI Models**: Google Gemini API (@google/genai)
 - **Design Theme**: High Density (Cinematic Dark Mode)
 
+## 🚀 Deployment to GitHub Pages
+
+This project is configured for automatic deployment via GitHub Actions.
+
+1. Go to your GitHub Repository **Settings**.
+2. Navigate to **Secrets and variables** > **Actions**.
+3. Add a **New repository secret**:
+   - Name: `GEMINI_API_KEY`
+   - Value: Your Google AI Studio API Key.
+4. Go to **Settings** > **Pages**.
+5. Under **Build and deployment** > **Source**, select **GitHub Actions**.
+
+Every time you push to the `main` branch, your app will automatically build and deploy!
+
 ## 📦 Getting Started
 
 ### Prerequisites
